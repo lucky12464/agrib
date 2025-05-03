@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgriBot X - Smart Farming</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; color: #333; animation: fadeIn 1s ease-in; }
+    header { background-color: #2e7d32; color: white; padding: 1.5rem; text-align: center; animation: slideDown 1s ease-in-out; }
+    nav { background-color: #388e3c; padding: 1rem; text-align: center; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; transition: color 0.3s; }
+    nav a:hover { color: #c8e6c9; }
+    section { padding: 2rem; max-width: 1000px; margin: auto; animation: fadeInUp 1s ease-in; }
+    .feature-card, .team-card, .faq-card { background: white; border-radius: 10px; padding: 1rem; margin-bottom: 1.5rem; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.3s; }
+    .feature-card:hover, .team-card:hover, .faq-card:hover { transform: scale(1.02); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+    footer { text-align: center; padding: 1rem; background-color: #2e7d32; color: white; animation: fadeIn 1s ease-in; }
+    img.mockup { width: 100%; max-width: 800px; border-radius: 10px; margin-top: 1rem; }
+    iframe { width: 100%; height: 400px; border-radius: 10px; margin-top: 1rem; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; } to { opacity: 1; }
+    }
+    @keyframes slideDown {
+      from { transform: translateY(-20px); opacity: 0; } to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes fadeInUp {
+      from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AgriBot X</h1>
+    <p>Smart Self-Driving Tractor Controlled by a Mobile App</p>
+  </header>
+
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#app">App Preview</a>
+    <a href="#video">Demo Video</a>
+    <a href="#team">Our Team</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="features">
+    <h2>Key Features</h2>
+    <div class="grid">
+      <div class="feature-card">
+        <h3>Autonomous Navigation</h3>
+        <p>Uses AI and GPS to automatically plow, seed, spray, and harvest your fields with precision.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Mobile App Control</h3>
+        <p>Control and monitor your tractor using the AgriBot X mobile app on Android or iOS.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Real-Time Monitoring</h3>
+        <p>Get live updates on location, battery, soil, and weather data to make smarter decisions.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Task Scheduler</h3>
+        <p>Plan and automate farming operations days or weeks in advance from your phone.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="app">
+    <h2>App Preview</h2>
+    <p>Take a quick look at how the AgriBot X app works:</p>
+    <img src="/mnt/data/A_digital_image_displays_four_smartphone_screens_s.png" alt="App Mockup" class="mockup" />
+  </section>
+
+  <section id="video">
+    <h2>Demo Video</h2>
+    <p>Watch how AgriBot X transforms traditional farming:</p>
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="AgriBot X Demo Video" allowfullscreen></iframe>
+  </section>
+
+  <section id="team">
+    <h2>Our Team</h2>
+    <div class="grid">
+      <div class="team-card">
+        <h3>Srinivas</h3>
+        <p>CEO<br>Visionary in AgriTech solutions and automation.</p>
+      </div>
+      <div class="team-card">
+        <h3>Likith</h3>
+        <p>Founder<br>Leading innovation in agricultural robotics.</p>
+      </div>
+      <div class="team-card">
+        <h3>Kedhar</h3>
+        <p>Design Head<br>Focused on user-friendly and modern UI/UX.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-card">
+      <h3>Q: Is the tractor suitable for small farms?</h3>
+      <p>A: Yes, AgriBot X is designed for both small and large-scale farms.</p>
+    </div>
+    <div class="faq-card">
+      <h3>Q: What if there is no internet in the field?</h3>
+      <p>A: The app can operate offline with saved tasks and syncs when connected again.</p>
+    </div>
+    <div class="faq-card">
+      <h3>Q: Is training required to use the app?</h3>
+      <p>A: The app is user-friendly with tutorials and help built-in for first-time users.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@agribotx.com</p>
+    <p>Phone: +91-98765-43210</p>
+    <p>Address: AgriTech Innovations, Bengaluru, India</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AgriBot X. All rights reserved.</p>
+  </footer>
+</body>
+</html>
